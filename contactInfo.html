@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Info</title>
+        <link rel="stylesheet" href="main.css">
+       
+    </head>
+    <body>
+          <div class="nav colors">
+  <input type="checkbox" id="nav-check">
+  <div class="nav-header">
+    <div class="nav-title">
+       <a class="under" href="index.html" >Kaito kid</a>
+    </div>
+  </div>
+  <div class="nav-btn">
+    <label for="nav-check">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+  </div>
+  
+  <div class="nav-links">
+    <a href="home.html" >Home</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contactInfo.html">Contacts</a>
+    <a href="kaito.html">Video</a>
+  </div>
+</div>
+
+
+        <div id="chatTag">  <img class="kaitoPic colors" src="https://avatarfiles.alphacoders.com/118/118324.jpg">
+         <p id="tag"> Finding out the truth isn't easy.</p></div>
+    
+    </div>
+    
+    <div class="numbers">
+        <p class="randomR" id="one"> (212) 423-0599 </p>
+        <p class="randomR" id="two"> (726) 245-9858 </p>
+        <p class="random" id="three"> (212) 295-3850 </p>
+        <p class="randomL" id="four"> (212) 628-8100 </p>
+        <p class="randomL" id="five"> (212) 581-9100 </p>
+        
+    </div>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+        $("#one").click(function(){
+            $("#tag").html("That's the Kfc on 1922 Third Ave!");
+        });
+        $("#two").click(function(){
+             $("#tag").html("Nope! This is a random numbers. (won't recommend calling it)");
+        });
+
+        $("#three").click(function(){
+             $("#tag").html("M&M World on 1600 Broadway, New York, NY 10019");
+        });
+
+        $("#four").click(function(){
+             $("#tag").html("That's the McDonald on 1499 Third Ave");
+        });
+
+        $("#five").click(function(){
+             $("#tag").html("Hershey's Chocolate World on 20 Times Square Building, 701 7th Ave");
+        });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kaito Gallery</title>
+         <link rel="stylesheet" href="main.css">
+        
+        
+
+
+    </head>
+    <body>
+ 
+         <div class="nav colors">
+  <input type="checkbox" id="nav-check">
+  <div class="nav-header">
+    <div class="nav-title">
+       <a class="under" href="index.html" >Kaito kid</a>
+    </div>
+  </div>
+  <div class="nav-btn">
+    <label for="nav-check">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+  </div>
+  
+  <div class="nav-links">
+    <a href="home.html" >Home</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contactInfo.html">Contacts</a>
+    <a href="kaito.html">Video</a>
+  </div>
+</div>
+
+
+        <div id="chatTag">  <img class="kaitoPic colors" src="https://avatarfiles.alphacoders.com/118/118324.jpg">
+         <p id="tag">I'm different from a thief that wears all black. I'm bold and flamboyant; I'm Kaitou Kid! Welcome, to my gallery!</p></div>
+    
+    </div>
+         
+         <div id="things">
+             <img id="groupPic" src="https://data.whicdn.com/images/176634696/original.jpg">
+             <img id="dog" src="https://data.whicdn.com/images/317462880/superthumb.jpg?t=1533846418">
+             <img id="bird" src="https://c4.wallpaperflare.com/wallpaper/814/984/934/detective-conan-kaitou-kid-birds-magician-wallpaper-af8c13b8b7baea60b8026b6ce3459335.jpg">
+         </div>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+        
+
+$("#groupPic").click(function(){
+     $("#tag").html("Ah yes, that was a fun time I had with my little detective friend!");
+});
+
+$("#dog").click(function(){
+     $("#tag").html("Honestly I'm always suprised by how he was able to see through my action. My maid costume (Which I looked very nice in it) and my intention was all seen through by him.");
+});
+
+$("#bird").click(function(){
+     $("#tag").html("I'm a magician under the moonlight, and what kind of magician don't work with doves?");
+});
+        </script>
+         
+    </body>
+</html>
